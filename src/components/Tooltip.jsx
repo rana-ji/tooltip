@@ -15,7 +15,7 @@ const Tooltip = ({ position, children }) => {
   const getTooltipStyle = () => {
     switch (position) {
       case 'top':
-        return { top: '-150%' };
+        return { top: '-200%' };
       case 'bottom':
         return { top: '150%' };
       case 'right':
